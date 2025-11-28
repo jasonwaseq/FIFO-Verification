@@ -1,0 +1,9 @@
+{
+    "top": "testbench",
+    "files":
+    ["part2/fifo_1r1w/fifo_1r1w1_3/fifo_1r1w.sv"
+    ,"part2/fifo_1r1w/testbench.sv"
+    ,"provided/nonsynth_clock_gen.sv"
+    ,"provided/nonsynth_reset_gen.sv"
+    ]
+}
