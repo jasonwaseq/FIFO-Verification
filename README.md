@@ -1,3 +1,3 @@
-# Lab Assignment 6
+# FIFO Verification
 
-Click `Code` > `Codespaces` > `Create codespace on main` to start coding!
+I built my first fully custom ready/valid testbench to validate multiple FIFO implementations with an 8-bit data path and 2⁸ depth. Using SystemVerilog queues for golden-model reference behavior, I manually implemented handshake logic to simulate realistic producer-consumer interactions. I created randomized and directed test scenarios, verified correct enqueue/dequeue behavior, and detected failure cases such as improper ready/valid timing or incorrect FIFO state updates. By ensuring consistent results across both Icarus Verilog and Verilator, I demonstrated reliability and robustness in verifying hardware modules that rely on industry-standard transactional interfaces.
